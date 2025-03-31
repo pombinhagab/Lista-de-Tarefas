@@ -13,8 +13,8 @@ const Filter = ({ filter, setFilter, setSort}) => {
           </div>
           <div>
             <p>Ordem alfabética:</p>
-            <button onClick={() => setSort("Asc")}>Asc</button>
-            <button onClick={() => setSort("Desc")}>Desc</button>
+            <button onClick={() => setSort("Asc")}>Ascendente</button>
+            <button onClick={() => setSort("Desc")}>Descendente</button>
           </div>
         </div>
       </div>
